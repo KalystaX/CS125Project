@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1881163413",
+    "firebase_url": "https://shifa-2c534.firebaseio.com",
+    "project_id": "shifa-2c534",
+    "storage_bucket": "shifa-2c534.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1881163413:android:9c85870c6b00458c",
+        "android_client_info": {
+          "package_name": "uiuc.kalysta.cs125final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1881163413-toh8hgah8ubttqu43nbm5ce1psh8leeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uiuc.kalysta.cs125final",
+            "certificate_hash": "d7228eaf6bf3aa2cf5941ec50040d0c435cb24aa"
+          }
+        },
+        {
+          "client_id": "1881163413-u5tegfhpa6hm2e9j42j64dmjplq6a0lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT8lpXDF321Yx65uwgeLWdj44gAxjizi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1881163413-u5tegfhpa6hm2e9j42j64dmjplq6a0lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

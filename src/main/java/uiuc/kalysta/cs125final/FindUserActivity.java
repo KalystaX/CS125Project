@@ -53,55 +53,6 @@ public class FindUserActivity extends AppCompatActivity {
         }
     }
 
-    /*private void getUserDetails(UserObject mContact) {
-        DatabaseReference mUserDB = FirebaseDatabase.getInstance().getReference().child("user");
-        Query query = mUserDB.orderByChild("phone").equalTo(mContact.getPhone());
-        query.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if(dataSnapshot.exists()) {
-                    String phone = "",
-                            name = "";
-                    for(DataSnapshot childSnapshot : dataSnapshot.getChildren()){
-                        if(childSnapshot.child("phone").getValue() != null) {
-                            phone = childSnapshot.child("phone").getValue().toString();
-                        }
-                        if(childSnapshot.child("name").getValue() != null) {
-                            phone = childSnapshot.child("name").getValue().toString();
-                        }
-
-                        UserObject mUser = new UserObject(name, phone);
-                        userList.add(mUser);
-                        mUserListAdapter.notifyDataSetChanged();
-                        return;
-                    }
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-    }
-
-    private String getCountryISO(){
-        String ISO = null;
-        TelephonyManager telephonyManager = (TelephonyManager) getApplicationContext().getSystemService(getApplicationContext().TELEPHONY_SERVICE);
-        if(telephonyManager.getNetworkCountryIso() != null) {
-            if (!telephonyManager.getNetworkCountryIso().toString().equals("")) {
-                ISO = telephonyManager.getNetworkCountryIso().toString();
-            }
-        }
-        return CountryToPhonePrefix.getPhone(ISO);
-    }
-    private void initialzeRecycleView() {
-        mUserList = findViewById(R.id.userList);
-        mUserList.setNestedScrollingEnabled(false);
-        mUserList.setHasFixedSize(false);
-        mUserLayoutManager = new LinearLayoutManager(getApplicationContext(), LinearLayout.VERTICAL, false);
-        mUserList.setLayoutManager(mUserLayoutManager);
-        mUserListAdapter = new UserListAdapter(userList);
-        mUserList.setAdapter(mUserListAdapter);
-    }*/
+   
+    
 }
